@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2163652_mlpa3hrnz8.eot?t=1603868021138'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2163652_mlpa3hrnz8.eot?t=1603868021138#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAWsAAsAAAAACxQAAAVeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqJKIdUATYCJAMUCwwABCAFhG0HURtpCSMRtnpx8pP9I8Ex1i7IJtYnl5Ty03FND0UVNZKeyYfHTXs/8f+BQiWt085UgZlY2BkHd16TzFyAiTtb07GGRJgI1SVrWX7rjvz3u/KX5gucx2mUQkiEpAECCOYeHDNeFs7ybDaXjLYKwNGAB/QRZRkie5B/UX6V8Lp0L0zwxUAAUCQpgzRp1sYBBQJ4NUHdyGFD+kFxWCBEMAgUvRRwoADyD0Qo3O/cSQzwt/bz5CmiFICDyIO/VIfBTQeiwQPzo+28HtLRk9ehF+cCcDsM4AGUAQgAGR/oGQneUJXRNDTo7wQ0AEChgAP3wPwg6sH+0fZQCEvRIR0V/uEBAgg48ACRwGtMhGmgFgZOKkksbRRMINA2BR844NF2LaYXJR5AAcQB8QLkBnhyEXtYIEAEb+IjZUGQ6UuJajaZ1ARbZIKq9kqMG5G+NGaUtSz6nuHWLsQ5xHLwYrIwz9807EiwMLHyNjK/lQI9GTJ3FqEuBnYs6OLdcaQPJTl7ijMnJcy5aFes2qwv861wL/cudYpmwGYk5L5yv0DAFQx28fudFy9OJ5VDF9F7BwKORatyt25eXbDDkREsuuhijONiVFZ06YwlDXYeTsoP2t2pqVu19BkwLjaxHA4UEhcEm4cd8qc4SPZyavHWOrWE+fw1C2k55HemLy923JVvMiF1obZcuGCAeosgaxkL862IH7/5vPuC75x+tlG9fk9f1of5MtzplHpTIx2Z81ZtK8p8J0ovOyaflbElO9YsiHOlp1OTN1VPY2ZnXomlRTodcqd7U3tj3GsQSLorUt8ZxSy13O5Uof+QZkngbtB3VjFt3p1E3OmDfBlkOFXN+tiJtDSbK5oU1EuV+LrRmviPtwnI7Y8353wu8vnMwP/mtLDf3NuhRQtxryhrOhhOXd8rihzrp/0wGtDKRt+bcwzd4JZYf47e16hMGxTUDxRD/K6w30y22BKEMvsoi82iO8RKM0L1dwnfvgm7SAiRrLCa2N16C4TLlwUoF3AiKLi3mjZxUM3VdY6rq8xDbzbpWt9Phf4VaE+5RVIjz9Imnzye232To3Z3ow8L311ZA7XWuQK2hg2tw61w2GB8T/0bN8UX2nDthdi1U1TlniljSgxaM20MsXaJSh5UrZ9cqxV69s9AuzMw5uGVX5Zeah5TTGs8JHGmlF13dhL0f7XnNgg+aMauay9oV/VYsUaHsqf+eLJOTiopiiXryPeTJK978mOot/GhYseUmeyF9pwNr7PBKFvqjXDLY2Yvol4ws6euQbihsabW8yTR3W/QJM8t4U2psv9EH2LX2StpHCpO9W3eQnsZcsKXKTtwCivwij3fHc9esN52h+P2a8li7/0t6a1O6TwFpVonwBMAEDL4W3xfILSXFw5vAAD8Cu4Dobu8wccd+Bth+6Nwvk9YnfcKOxnmru6p5rRwyBCQXXL0apFYephLE44JXzlvFYV3pyR5V4tIhQU4WGRHdNvBHQh3oxjZQSRRfAqiLOAgIxF4KCiCEDBlQMQJTBWQKOoDVdrxcCYCGyNTAZTyZkBYfYBjsQd4Vl+EgPmBSPMHibUxUK42J2SKZVZbxkQwh/QFJqNWiXZZ6fUn1K5O2C7XWDfkzsQh9AJ3/ogtchG7dL2ORBQopgYO7HJY1wSWqcRMvELExr6vgh7Jy6gZrDTGUEKgHEi9ACNDWkqZLVae5Z8gzaklOKLrR/AGsY5ZHIQ8QQLEUdMm6tqU1k5PiwilFKButaQBDuRCtZAhwAavV0IZ4SkypKyYT9NUUo1Xva6Zx9KTrCd/n2Ic4YlARCJBemGsadfaJe3LPajBdibOmqSdZ0VCEebBAAAA') format('woff2'),
+  url('//at.alicdn.com/t/font_2163652_mlpa3hrnz8.woff?t=1603868021138') format('woff'),
+  url('//at.alicdn.com/t/font_2163652_mlpa3hrnz8.ttf?t=1603868021138') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2163652_mlpa3hrnz8.svg?t=1603868021138#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-shipin:before {
+  content: "\e615";
+}
+.icon-guanyuwomen:before {
+  content: "\e645";
+}
+.icon-tupian:before {
+  content: "\e8ba";
+}
+.icon-chaoshi:before {
+  content: "\e60d";
+}
+.home swiper {
+  width: 750rpx;
+  height: 380rpx;
+}
+.home swiper image {
+  width: 100%;
+  height: 100%;
+}
+.nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.nav .nav_item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+.nav .nav_item view {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background: #b50e03;
+  margin: 10rpx auto;
+  line-height: 120rpx;
+  color: #fff;
+  font-size: 50rpx;
+}
+.nav .nav_item .icon-shipin {
+  font-size: 40rpx;
+}
+.nav .nav_item text {
+  font-size: 30rpx;
+}
+.hot_goods {
+  background: #eee;
+  overflow: hidden;
+  margin-top: 20rpx;
+}
+.hot_goods .tit {
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #b50e03;
+  text-align: center;
+  letter-spacing: 40rpx;
+  background: #fff;
+  margin: 7rpx 0;
+}
+
